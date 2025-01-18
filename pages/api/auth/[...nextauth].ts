@@ -22,7 +22,7 @@ export default NextAuth({
     }),
   ],
   pages: {
-    signIn: "/auth/signin", // Updated path to match the correct route
+    signIn: "/auth/signin",
   },
   session: {
     strategy: "jwt",
